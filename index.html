@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Accounting System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Offline Accounting System</h1>
+
+<h2>Record Journal Entry</h2>
+
+<input type="date" id="date">
+<select id="debit"></select>
+<select id="credit"></select>
+<input type="number" id="amount" placeholder="Amount">
+<button onclick="addEntry()">Add Entry</button>
+
+<h2>Trial Balance</h2>
+<button onclick="showTrialBalance()">Generate Trial Balance</button>
+<div id="trial"></div>
+
+<h2>Balance Sheet</h2>
+<button onclick="showBalanceSheet()">Generate Balance Sheet</button>
+<div id="balanceSheet"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

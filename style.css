@@ -1,0 +1,29 @@
+body {
+  font-family: Arial;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+input, select {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  padding: 6px 12px;
+  margin: 5px;
+  background: navy;
+  color: white;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
